@@ -26,6 +26,7 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        Here is random text to test if it works.
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
